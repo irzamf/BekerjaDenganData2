@@ -176,9 +176,9 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(94, 21);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(209, 24);
+            this.label7.Size = new System.Drawing.Size(97, 24);
             this.label7.TabIndex = 60;
-            this.label7.Text = "COBA PUSH GITHUB";
+            this.label7.Text = "Hai Pinky";
             // 
             // DeleteKaryawan
             // 
