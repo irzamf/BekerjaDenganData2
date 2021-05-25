@@ -41,6 +41,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtJabatan = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -169,11 +170,22 @@
             this.txtJabatan.Size = new System.Drawing.Size(162, 20);
             this.txtJabatan.TabIndex = 59;
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(94, 21);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(209, 24);
+            this.label7.TabIndex = 60;
+            this.label7.Text = "COBA PUSH GITHUB";
+            // 
             // DeleteKaryawan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(392, 290);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.txtJabatan);
             this.Controls.Add(this.btnCari);
             this.Controls.Add(this.label5);
@@ -209,5 +221,6 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtJabatan;
+        private System.Windows.Forms.Label label7;
     }
 }
